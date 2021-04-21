@@ -26,7 +26,15 @@ button {
   border: none;
   outline: none;
 }
-
+/* a, a:hover 지우기 */
+a {
+  text-decoration: none;
+  /* color: black; */
+  color: var(--color-blue);
+}
+a:hover {
+  color: #ffffff;
+}
 /* Header */
 #head {
   padding: 50px 100px;
@@ -171,22 +179,24 @@ button {
   font-size: 14px;
 }
 /* 최신순 버튼이동 */
-.before-btn, .after-btn{
+.before-btn,
+.after-btn {
   position: absolute;
-  top:46%;
+  top: 46%;
   font-size: 36px;
-  color: #bfbfbf; 
+  color: #bfbfbf;
   width: 50px;
   height: 50px;
   line-height: 50px;
 }
-.before-btn{
-  left: -80px;   
+.before-btn {
+  left: -80px;
 }
-.after-btn{
+.after-btn {
   right: -64px;
 }
-.before-btn:hover, .after-btn:hover{
+.before-btn:hover,
+.after-btn:hover {
   background-color: #eeeeee;
   border-radius: 50%;
   opacity: 0.6;
