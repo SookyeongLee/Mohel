@@ -26,15 +26,7 @@ button {
   border: none;
   outline: none;
 }
-/* a, a:hover 지우기 */
-a {
-  text-decoration: none;
-  /* color: black; */
-  color: var(--color-blue);
-}
-a:hover {
-  color: #ffffff;
-}
+
 /* Header */
 #head {
   padding: 50px 100px;
